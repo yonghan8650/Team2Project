@@ -18,9 +18,15 @@
 	
 	16. 작업시작하기전 [synchronize workspace - 변경사항 있으면 - pull] (pull했을때 develop이어야함, develop이 최신본임)
 	17. switch to - other - remote tracking에 만들었던 feat_~~~로 new local branch로 체크아웃 
+			- (없으면 fetch from에서 강제로 가져와야함)
 	18. 작업1완료 후 팀 - commit만 (push는 x) (save포인트 만듦)
 	19. 작업2완료 후 commit (save포인트2 만듦) ........... //돌아올 수 있는 시점을 만듦
 	20. 작업완료 후 team - [push branch feat_~~~] 하나의 파일을 2명에서 한다면 synchronize 체크하기
-	21.  
+	21. 깃 허브 - <>code - compare & pull request 클릭 - Open a pull request에서 왼쪽에 develop 오른쪽에 자신이 만든 branch가 있어야함
+	22. comment 추가하고(ex)기능1 추가, 기능2 추가예정) 오른쪽에 Reviewer 추가 (팀원중1명) ,Assignees, Labels 등등추가 하고 full request
+	  - reviewer는 file changed 클릭해서 코드기록 확인하고 reviewed 체크박스 체크하고 우측상단 finish review 클릭
+	  - comment - 메시지만 남김 // approve - 승인.   merge pull request.  -> merge 완료  
+	23. pull request 메뉴에서 branch 지우기
+	24. 작업 시작할 때 team - pull
 	
 	
