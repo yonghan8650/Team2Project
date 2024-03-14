@@ -1,5 +1,26 @@
-팀장 프로젝트 설정 및 준비
-1. 깃허브 저장소 만들기
-2. 프로젝트 만들기
-3. 설정하고 커밋푸쉬 (master 브랜치)
-4. team- switch to - develop 브랜치 만들기 (develop 브랜치)
+	팀장 프로젝트 설정 및 준비
+	1. 깃허브 저장소 만들기
+	2. 프로젝트 만들기
+	3. 설정하고 커밋푸쉬 (master 브랜치)
+	4. team- switch to - develop 브랜치 만들기 (develop 브랜치)
+	5. 깃허브 설정에서 Default branch develop으로 변경
+	6. 깃허브 설정에서 브랜치메뉴 - add branch protection rule 클릭
+	7. name pattern develop 설정
+	8. merge 하기전 확인할 사람 수 설정
+	9. collaborators 에서 팀원 초대
+	10. 프로젝트 메뉴에 프로젝트만들기 (board)  - 진행상황 파악
+	11. 프로젝트 우측 ... 클릭 Manage access 에서 팀원 추가 (권한 : write)
+	------------------------------------------------------------------------------------
+	12. 프로젝트 보드에 요소 만들고 ... 클릭해서 convert to issue클릭
+	13. ... 클릭 - open in new tab - issue에 관한 내용 ex) ~기능 구현, api ...등등
+	14. 우측에 Assignees, Labels(작업종류 OR 담당팀원으로 라벨 설정해도됨) 설정 
+	15. ISSUE에서 Development - Create new Branch - branch name : ex) feat_[기능] 
+	
+	16. 작업시작하기전 [synchronize workspace - 변경사항 있으면 - pull] (pull했을때 develop이어야함, develop이 최신본임)
+	17. switch to - other - remote tracking에 만들었던 feat_~~~로 new local branch로 체크아웃 
+	18. 작업1완료 후 팀 - commit만 (push는 x) (save포인트 만듦)
+	19. 작업2완료 후 commit (save포인트2 만듦) ........... //돌아올 수 있는 시점을 만듦
+	20. 작업완료 후 team - [push branch feat_~~~] 하나의 파일을 2명에서 한다면 synchronize 체크하기
+	21.  
+	
+	
